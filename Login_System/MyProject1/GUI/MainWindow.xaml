@@ -1,0 +1,25 @@
+﻿<Window x:Class="MyProject1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyProject1"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        mc:Ignorable="d"
+        Title="MainWindow" 
+        WindowState="Maximized"
+        WindowStyle="None">
+    <Grid Margin="0,0,1,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="72*"/>
+            <RowDefinition Height="455*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="190*"/>
+            <ColumnDefinition Width="565*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <Button x:Name="BackButton" Content="Back" HorizontalAlignment="Left" Margin="39,411.959,0,0" VerticalAlignment="Top" Width="110" Height="33" Click="BackButton_Click" Grid.Row="1"/>
+
+    </Grid>
+</Window>
